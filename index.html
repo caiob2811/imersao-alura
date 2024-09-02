@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisar jogadores de futebol</title>
+    <link rel="stylesheet" href="tela-principal.css">
+</head>
+<body>
+        <h1>Olá, seja bem vindo! </h1>
+        <h2>Pesquise aqui seu jogador de futebol!</h2>
+    </header>
+    <section>
+    <main>
+        <input type="text" placeholder="Digite sua busca">
+        <button>Pesquisar</button>
+    </main>
+</section>
+<script>
+    const input = document.querySelector('input[type="text"]')
+    const button = document.querySelector('button')
+
+    button.addEventListener('click', () => {
+        const pesquisa = input.value
+        const url = `https://www.google.com/search?q=${encodeURIComponent(pesquisa)}`
+        window.location.href = url
+    })
+</script>
+</body>
+
+<footer> 2024 - Pesquisar Jogadores de Futebol - Todos os direitos reservados</footer>
+</html>
