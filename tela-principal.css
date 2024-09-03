@@ -164,3 +164,24 @@ footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
     }
 }
+
+a{
+    text-decoration: none;
+    color: #222831;
+}
+
+a:hover {
+    color: #f9ffff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.estatisticas {
+    display: flex;
+}
+
+a button {
+    background-color: #30475E;
+    color: #f9ffff;
+    border-radius: 0.6rem;
+}
