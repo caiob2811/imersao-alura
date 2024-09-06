@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Início</title>
-    <link rel="stylesheet" href="tela-principal.css">
+    <title>Estatísticas</title>
+    <link rel="stylesheet" href="estatisticas.css">
 </head>
 <body>
     <header>
-        <h1>Olá, seja bem vindo! </h1>
-        <h2>Pesquise aqui seu jogador de futebol favorito!</h2>
+        <h1>Página de estatisticas</h1>
+        <h3>Pesquise aqui a estatistica do seu jogador favorito !</h3>
     </header>
-        <main>       
-            <section>
-                <input type="text" placeholder="Digite aqui o nome do atleta">
-                <button>Pesquisar</button>
+        <main>
+            <section> 
+              <input type="text" id="jogador2-input" placeholder="Digite aqui o nome do atleta">
+                <button id="jogador2-button">Pesquisar</button>
             </section>
         </main>
         <main>
-            <section> 
-                <a class="botao-estatisticas" href="estatisticas.html">Estatísticas do jogador</a>
-            </section>
+          <section> 
+            <a class="botao-inicio" href="index.html">Voltar para o início</a>
+        </section>
         </main>
 <footer> 2024 - Pesquisar Jogadores de Futebol - © Todos os direitos reservados</footer>
-
-<script src="dados.js/dados-pesquisa.js"></script>
+<script src="dados.js/dados-estatisticas.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cheerio@1.0.0-rc.3/lib/cheerio.min.js"></script>
 
 <div vw class="enabled">
     <div vw-access-button class="active"></div>

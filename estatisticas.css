@@ -1,11 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-
 
 body {
     font-family: "Poppins", sans-serif; 
-    background-image: url("imagens/fundo-gradiente-do-campo-de-futebol_23-2149000104.jpg");
+    background-image: url("imagens/estatisticas.jpg");
     background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,14 +15,16 @@ body {
 }
 
 h1 {
-    font-size:2.5rem;
+    font-size:31px;
+    margin-right: 32px;
     color: #ffffff;
     text-align: center;
     letter-spacing: 0.4rem;
 }
 
-h2 {
-    color: #FFFFFF;
+h3 {
+    font-size: 18px;
+    color: #ffffff;
 }
 
 section {
@@ -34,20 +35,20 @@ section {
 }
 
 section input {
-    width: 30rem;
+    width: 27rem;
     border: none;
     padding: 1rem;
     border-radius: 1.5rem;
     margin-bottom: 1rem;
-    color: #000000;
+    color: #ffffff;
     font-size: 1rem;
     box-sizing: border-box;
+    background-color: #2b3031;
 }
 
 input[type="text"]::placeholder {
-    color: #000000;
+    color: #ffffff;
   }
-
 section button {
     padding: 0.8rem 1.2rem;
     border: none;
@@ -156,6 +157,26 @@ a button {
 }
 
 .botao-estatisticas:hover {
+    box-shadow: 0 4px 8px #FFFFFF;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.exclamacao {
+    color: #054163;
+}
+
+.botao-inicio{
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: #054163;
+    color: #F5F7F8;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.botao-inicio:hover {
     box-shadow: 0 4px 8px #FFFFFF;
     color: #000000;
     background-color: #FFFFFF;
