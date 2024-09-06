@@ -16,3 +16,5 @@ Linguagens de programação utlizada: Html, Css e JavaScript
 Outras tecnologias Usando o Gemini, a IA da Google.
 
 Quero agradecer a Alura por uma imersão tão bacana, aprendi bastante usar o gemini, relembrei bastante coisas de programação e aprendi coisas novas.
+
+OBS: link do vercel: https://vercel.com/caios-projects-dc5af49f/imersao-alura-pesquisar-jogadores-de-futebol
