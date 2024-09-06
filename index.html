@@ -13,27 +13,30 @@
     </header>
         <main>       
             <section>
-                <input type="text" id="nome-jogador" placeholder="Digite o nome">
-                    <button>Pesquisar</button>
+                <input type="text" placeholder="Digite aqui o nome do atleta" >
+                <button>Pesquisar</button>
             </section>
         </main>
-        <section class="resultados-pesquisa">
-            <h2>
-                <span class="nome-time"></span>
-            </h2>
-            <div class="estatisticas"> </div>
-            <a href="https://www.sofascore.com/pt/"> <button>Estatísticas do jogador</button></a>
-        </section>
+        <main>
+            <section> 
+                <input type="text" placeholder="Digite aqui o nome do atleta">
+                 <button class="botao-estatisticas">Estatísticas do jogador</button>
+            </section>
+        </main>
+<footer> 2024 - Pesquisar Jogadores de Futebol - © Todos os direitos reservados</footer>
 
-<footer> 2024 - Pesquisar Jogadores de Futebol - Todos os direitos reservados</footer>
-<script>
-   const input = document.querySelector('input[type="text"]');
-   const button = document.querySelector('button');
-    button.addEventListener('click', () => {
-    const pesquisa = input.value;
-    const url = `https://pt.wikipedia.org/w/index.php?search=${encodeURIComponent(pesquisa)}`;
-    window.location.href = url;
-});
-</script>
+<script src="dados-pesquisa.js"></script>
+
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body> 
 </body>
 </html>
